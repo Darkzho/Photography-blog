@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+main {
+    max-width: 791px;
+    margin: 0 auto;
+    color: #666666;
+    margin-top: 24px;
+    box-shadow: 0px 2px 8px #00000029;
+    border-radius: 0 0 5px 5px;
+}
+
+.principal-img {
+    background-image: url('../assets/Principal.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 270px;
+    border-radius: 5px 5px 0 0;
+}
+
+.principal-post-wrapper {
+    padding: 20px 30px;
+}
+
+.principal-post--user-data--container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.principal-post--user-data--container .principal-post--user-data-splitter img{
+    width: 60px;
+    height: 60px;
+}
+
+.principal-post--user-data--container .principal-post--user-data-splitter h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.principal-post--user-data--container .principal-post--user-data-splitter p {
+  font-size: 1.2rem;
+  margin-top: 3px;
+}
+
+.principal-post--user-data-splitter{
+    display: flex;
+    align-items: center;
+}
+
+.principal-post--user-data-splitter .principal-post--user-data{
+    margin-left: 3px;
+}
+
+.principal-post--user-data--container .principal-post--user-data--heart img{
+    vertical-align: 15px;
+}
+
+.principal-post .principal-post--info{
+    margin-top: 8px;
+}
+
+.principal-post .principal-post--info h1{
+    font-size: 2.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.principal-post .principal-post--info p{
+    font-size: 1.6rem;
+    margin-top: 15px;
+}
+
+.principal-post .principal-post--info .principal-post--info--read-more{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #5A90BC;
+    padding-bottom: 5px;
+}
+
+.opinion-wrapper {
+    background-color: #FFEDDA4C;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.opinion-wrapper p{
+    font-size: 1.6rem;
+}
+
+.opinion-section .comments-number{
+    font-size: 1.1rem;
+    color: #604731;
+    letter-spacing: 2.2px;
+    margin-bottom: 15px;
+}
+
+.principal-post--user-data--container .principal-post--user-data--return-arrow img {
+    width: 24px;
+    height: 24px;
+    vertical-align: -30px;
+}
+
+.opinion-section .opinion-section--user-opinion p {
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+.answer-section .principal-post--user-data-splitter {
+    margin-left: 50px;
+}
+
+.answer-section .answer-section--hero-answer {
+    margin-left: 110px;
+    margin-top: 5px;
+}
+
+.write-section {
+    display: flex;
+    align-items:center;
+    padding: 20px 30px;
+    justify-content: space-between;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 24px;
+    padding-bottom: 30px;
+}
+
+.write-section input {
+   width: 600px;
+   border: none;
+   border-bottom: 1px solid #666666;
+   opacity: 50%;
+   font-size: 1.6rem;
+   line-height: 32px;
+   margin-right: 20px;
+  
+}
+
